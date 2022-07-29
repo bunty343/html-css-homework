@@ -1,0 +1,30 @@
+.main-container {
+    width: 3000px;
+    height: 800px;
+    background-color: bisque;
+    display: flex;
+}
+
+.left {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    height: 800px;
+    background-color: rgb(5, 5, 132);
+    
+}
+
+.right {
+    width: 2000px;
+    height: 800px;
+    background-color: rgba(222, 140, 16, 0.656);
+}
+h2{  
+    text-align: center;  
+    color: #0eacc8;  
+    padding: 200px;  
+}
+span{  
+    color: rgb(14, 48, 217);  
+    font-size: 17px;
+ }

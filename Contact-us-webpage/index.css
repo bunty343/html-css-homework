@@ -2,17 +2,23 @@
     background-color: black;
     display:flex;
     flex-direction: row;
+    padding-top: 20px;
+    padding-left: 20px;
+    scroll-padding-block-end: 20px;
 }
 .left {
     background-color: rgb(5, 5, 132);
-    height: 700px;
-    width: 250px;   
+    height: 670px;
+    width: 250px;  
+    padding-right: 30px; 
+    padding-top: 30px;
 }
 li{
 list-style-type: armenian;
 }
 
 .right {
+text-align: center;
 width: 750px;
 height: 700px;
 background-color: rgba(251, 210, 64, 0.926);
@@ -20,11 +26,6 @@ background-color: rgba(251, 210, 64, 0.926);
 .intext{
 text-decoration: solid;
 text-decoration-color: white;
-
-}
-p{
-float: left;
-margin-left: 10px;
 
 }
 .information{
@@ -38,11 +39,13 @@ text-align: center;
 }
 .inleft
 {
+    text-align: start;
 display: flex;
 flex-direction: column;
 width: 50%;
 }
 .inright{
+    block-size: 30px;
 display: flex;
 flex-direction: right;
 width: 50%;

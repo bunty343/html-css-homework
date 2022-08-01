@@ -1,0 +1,52 @@
+.main-box{
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+}
+.left {
+    background-color: rgb(5, 5, 132);
+    height: 700px;
+    width: 250px;   
+}
+li{
+list-style-type: armenian;
+}
+
+.right {
+width: 750px;
+height: 700px;
+background-color: rgba(251, 210, 64, 0.926);
+}
+.intext{
+text-decoration: solid;
+text-decoration-color: white;
+
+}
+p{
+float: left;
+margin-left: 10px;
+
+}
+.information{
+text-align: right;
+margin-right: 10px;
+}
+.inside{
+display: flex; 
+margin: 20px; 
+text-align: center;
+}
+.inleft
+{
+display: flex;
+flex-direction: column;
+width: 50%;
+}
+.inright{
+display: flex;
+flex-direction: right;
+width: 50%;
+margin-top: 10px;
+padding: 20px;
+}  
+
